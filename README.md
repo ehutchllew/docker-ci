@@ -23,3 +23,7 @@ This will display a table with information regarding any up/running containers o
 This allows us to execute commands on already running containers. Using `sh` as the command essentially keeps open a shell so we can run anything we would normally run via the terminal.
 
 # Docker Compose Commands
+### Run Docker Compose
+`docker-compose up`
+
+This looks for a `docker-compose.yml` file in the CWD and executes all the commands (see the yaml file for configuration)

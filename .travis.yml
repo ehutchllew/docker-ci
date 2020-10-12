@@ -10,7 +10,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "docker-ci"
-  env: "DockerCi-env"
+  env: "docker-ci-env"
   bucket: "elasticbeanstalk-us-east-1-201394012156"
   bucket_path: "docker-ci"
   on:
